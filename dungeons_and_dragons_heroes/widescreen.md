@@ -1,6 +1,6 @@
 # Anamorphic Widescreen Patch for Dungeons & Dragons Heroes on XBOX
 
-This changes the horizontal field of view for 3d scenes in the game to be correct for 16:9 aspect ratio, so they don't look stretched when you put your television in widescreen mode. It does not change any UI, so the HUD, menus and splash screens will still look stretched. It has only been tested so far on the European release of the game.
+This changes the horizontal field of view for 3d scenes in the game to be correct for 16:9 aspect ratio, so they don't look stretched when you put your television in widescreen mode. It does not change any UI, so the HUD, menus and splash screens will still look stretched. It has only been tested so far on the European release of the game, through the character selection screen, intro cutscene and start of the first level.
 
 ## Patch
 
@@ -23,3 +23,4 @@ Many thanks to the authors of the following tools which I used extensively while
 - [ghidra](https://github.com/NationalSecurityAgency/ghidra)
 - [gdb](https://www.sourceware.org/gdb/)
 - [xemu](https://xemu.app/)
+
