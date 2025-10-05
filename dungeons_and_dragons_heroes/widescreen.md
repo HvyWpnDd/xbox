@@ -15,7 +15,7 @@ This changes the field of view for 3d scenes in the game to be correct for 16:9 
 
 In the `DEFAULT.XBE` file, change the bytes at position `2f7370` from `00 00 80 3f` to `ab aa aa 3f`.
 
-If you prefer, you can do a "find and replace" from `8e 79 45 3e  00 00 80 3f` to `8e 79 45 3e  ab aa aa 3f`.
+If you prefer, you can do a "find and replace" from `8e 79 45 3e 00 00 80 3f` to `8e 79 45 3e ab aa aa 3f`.
 
 ## Disclaimer
 
@@ -37,6 +37,7 @@ Many thanks to the authors of the following tools which I used extensively while
 - [ghidra](https://github.com/NationalSecurityAgency/ghidra)
 - [gdb](https://www.sourceware.org/gdb/)
 - [xemu](https://xemu.app/)
+
 
 
 
